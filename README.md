@@ -36,3 +36,16 @@ Es una librería que se usa junto con primeNg para agregarle clases css al proye
 **npm install primeflex** y después en el Angular.json, en el item de styles pego lo siguiente 
 **/node_modules/primeflex/primeflex.min.css**
 
+Es decir el styles del Angular.json queda de la siguiente manera después de todos los ajustes:
+"styles": [
+    "src/styles.css",
+    "node_modules/primeicons/primeicons.css",
+    "node_modules/primeng/resources/themes/lara-dark-indigo/theme.css",
+    "node_modules/primeng/resources/primeng.min.css",
+    "node_modules/primeflex/primeflex.min.css"
+]
+
+## Pipe Currency - Código de la moneda
+El código de la moneda de cada país está definido por el ISO 4217, este código es el que usa el pipe
+currency entre sus parámetros.
+
